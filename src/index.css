@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui" {
+    themes: cupcake --default, dark --prefersdark;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+body {
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 500;
+}
